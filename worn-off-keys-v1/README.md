@@ -16,10 +16,10 @@ I did not originally create any of this code, I just compiled it together, **I a
 2    "TOKEN": "REPLACE_TOKEN_HERE",
 ```
 
-<bt />**Optional** On line 3 of confing.json replace - with your preferd prefix of choice
+<br />**Optional** On line 3 of confing.json replace - with your preferd prefix of choice
 
 ```json
-2    "PREFIX": "-",
+2    "PREFIX": "-"
 ```
 
 ## Packages
