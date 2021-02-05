@@ -10,10 +10,10 @@ I did not originally create any of this code, I just compiled it together, **I a
 ## Things to replace!
 
 **Replace these things!**
-<br /> On line 21, replace YOUR_TOKE_HERE with your actual bot token. **WARNING** Never ever share your bot toke nwith anyone else, its like sharing your email adress pasword!
+<br /> On line 21, replace YOUR_TOKEN_HERE with your actual bot token. **WARNING** Never ever share your bot toke nwith anyone else, its like sharing your email adress pasword!
 
 ```javascript
-21    client.login("YOUR_TOKEN_HERE");
+21     client.login("YOUR_TOKEN_HERE");
 ```
 
 ## Packages
