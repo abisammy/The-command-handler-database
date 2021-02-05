@@ -1,4 +1,4 @@
-const prefix = "-";
+const { PREFIX } = require("./../confing.json");
 
 const validatePermisions = (permissions) => {
     const validPermissions = [
@@ -77,7 +77,7 @@ module.exports = (client, commandOptions) => {
             if (
                 content
                     .toLowerCase()
-                    .startsWith(`${prefix}${alias.toLowerCase()}`)
+                    .startsWith(`${PREFIX}${alias.toLowerCase()}`)
             ) {
                 // Ensure the user has the required permission
                 for (const permission of permissions) {
@@ -112,7 +112,7 @@ module.exports = (client, commandOptions) => {
                     (maxArgs !== null && arguments.length > maxArgs)
                 ) {
                     message.reply(
-                        `Incorrect syntac Use ${prefix}${alias} ${expectedArgs}`
+                        `Incorrect syntac Use ${PREFIX}${alias} ${expectedArgs}`
                     );
                     return;
                 }
