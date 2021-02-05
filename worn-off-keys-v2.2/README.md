@@ -1,11 +1,11 @@
-### Worn Off Keys V2
+### Worn Off Keys V2.2
 
 ## Credit!
 
 I did not originally create any of this code, I just compiled it together, **I am not taking any credit for creating this code, make sure you go support the actual creator!**
 <br />[Worn Off keys channel](https://www.youtube.com/channel/UChPrh75CmPP9Ig6jISPnfNA)
 <br />[Worn Off Keys discord server](https://discord.com/invite/Ra9BSSs)
-<br />[The original video](https://www.youtube.com/watch?v=lbpUc17InkM&list=PLaxxQQak6D_fxb9_-YsmRwxfw5PH9xALe&index=25)
+<br />[The original video](https://www.youtube.com/watch?v=lbpUc17InkM&list=PLaxxQQak6D_fxb9_-YsmRwxfw5PH9xALe&index=42)
 
 ## Things to replace!
 
@@ -30,4 +30,4 @@ npm i discord.js
 
 ## Things to look out for
 
-Make sure all your files are caled the same names in the [video](https://www.youtube.com/watch?v=JViwytLWflw&list=PLaxxQQak6D_fxb9_-YsmRwxfw5PH9xALe&index=25)!
+Make sure all your files are caled the same names in the [video](https://www.youtube.com/watch?v=JViwytLWflw&list=PLaxxQQak6D_fxb9_-YsmRwxfw5PH9xALe&index=42)!
