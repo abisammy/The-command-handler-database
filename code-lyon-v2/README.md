@@ -10,7 +10,7 @@ I did not originally create any of this code, I just compiled it together, **I a
 ## Things to replace!
 
 **Replace these things!**
-<br /> On line 33 of main.js, replace YOUR_TOKEN_HERE with your actual bot token. **WARNING** Never ever share your bot toke nwith anyone else, its like sharing your email address
+<br /> On line 33 of main.js, replace YOUR_TOKEN_HERE with your actual bot token. **WARNING** Never ever share your bot token with anyone else, its like sharing your email address
 password!
 
 ```javascript
