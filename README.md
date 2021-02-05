@@ -4,12 +4,16 @@
 
 # CREDIT
 
-#credit
 I did not originally create any of this code, I just compiled it together, **I am not taking any credit for creating this code, make sure you go support the actual creators!**
 <br />[CodeLyon](https://www.youtube.com/channel/UC08G-UJT58SbkdmcOYyOQVw)
 <br />[Worn Off Keys](https://www.youtube.com/channel/UChPrh75CmPP9Ig6jISPnfNA)
 
 They are both awesome youtube creators, check them out!
+
+Here are the discord servers!
+
+<br />[CodeLyon's discord server](https://discord.gg/Mdm5yMs5tc)
+<br />[Worn Off Keys discord server](https://discord.com/invite/Ra9BSSs)
 
 # What is the command handler database, and why was it created?
 
