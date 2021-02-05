@@ -15,3 +15,9 @@ I did not originally create any of this code, I just compiled it together, **I a
 ```javascript
 21    client.login("YOUR_TOKEN_HERE");
 ```
+
+## Packages
+
+```
+npm i discord.js
+```
