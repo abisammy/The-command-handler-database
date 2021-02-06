@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+
 const { TOKEN } = require("./config.json");
 const loadCommands = require("./commands/load-commands");
 

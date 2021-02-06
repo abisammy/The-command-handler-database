@@ -5,6 +5,7 @@ module.exports = {
     minArgs: 2,
     maxArgs: 2,
     cooldown: 10,
+    requiredChannel: "reports",
     description: "Add two numbers",
     callback: (message, arguments, text) => {
         const num1 = +arguments[0];

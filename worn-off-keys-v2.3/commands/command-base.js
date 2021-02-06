@@ -1,4 +1,4 @@
-const { PREFIX } = require("../config.json");
+const { PREFIX } = require("./../config.json");
 
 const validatePermisions = (permissions) => {
     const validPermissions = [
@@ -52,6 +52,7 @@ module.exports = (client, commandOptions) => {
         minArgs = 0,
         maxArgs = null,
         cooldown = -1,
+        requiredChannel = "",
         permissions = [],
         requiredRoles = [],
         callback,
@@ -74,7 +75,7 @@ module.exports = (client, commandOptions) => {
     }
 
     client.on("message", (message) => {
-        const { member, content, guild } = message;
+        const { member, content, guild, channel } = message;
 
         for (const alias of commands) {
             if (
@@ -83,6 +84,20 @@ module.exports = (client, commandOptions) => {
                     .startsWith(`${PREFIX}${alias.toLowerCase()}`)
             ) {
                 // A command has been ran
+
+                // Ensure we are in the right channel
+                if (requiredChannel !== channel.name) {
+                    const foundChannel = guild.channels.cache.find(
+                        (channel) => {
+                            return channel.name === requiredChannel;
+                        }
+                    );
+
+                    message.reply(
+                        `This command must be ran in <#${foundChannel.id}>`
+                    );
+                    return;
+                }
 
                 // Ensure the user has the required permission
                 for (const permission of permissions) {
