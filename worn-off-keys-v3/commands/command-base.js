@@ -1,4 +1,4 @@
-const prefix = "-";
+const { PREFIX } = require("@root/config.json");
 
 const validatePermisions = (permissions) => {
     const validPermissions = [
@@ -81,7 +81,7 @@ module.exports = (client, commandOptions) => {
             if (
                 content
                     .toLowerCase()
-                    .startsWith(`${prefix}${alias.toLowerCase()}`)
+                    .startsWith(`${PREFIX}${alias.toLowerCase()}`)
             ) {
                 // A command has been ran
 
@@ -141,7 +141,7 @@ module.exports = (client, commandOptions) => {
                     (maxArgs !== null && arguments.length > maxArgs)
                 ) {
                     message.reply(
-                        `Incorrect syntac Use ${prefix}${alias} ${expectedArgs}`
+                        `Incorrect syntac Use ${PREFIX}${alias} ${expectedArgs}`
                     );
                     return;
                 }
