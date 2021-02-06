@@ -1,17 +1,16 @@
-require("dotenv");
 require("module-alias/register");
 // const Discord = require("discord.js");
 // const client = new Discord.Client();
 
 const path = require("path");
 const Commando = require("discord.js-commando");
-const TOKEN = process.env.TOKEN4;
-const loadCommands = require("@root/commands/load-commands");
+const { TOKEN } = require("@root/confing.json");
+const { PREFIX } = require("@root/config.json");
 const loadFeatures = require("@root/features/load-features");
 
 const client = new Commando.CommandoClient({
     owner: "468128787884670986",
-    commandPrefix: "-",
+    commandPrefix: PREFIX,
 });
 
 client.on("ready", () => {
@@ -23,7 +22,6 @@ client.on("ready", () => {
         .registerDefaults()
         .registerCommandsIn(path.join(__dirname, "cmds"));
 
-    // loadCommands(client);
     loadFeatures(client);
 });
 
