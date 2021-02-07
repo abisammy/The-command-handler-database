@@ -5,7 +5,7 @@
 I did not originally create any of this code, I just compiled it together, **I am not taking any credit for creating this code, make sure you go support the actual creator!**
 <br />[CodeLyon's channel](https://www.youtube.com/channel/UC08G-UJT58SbkdmcOYyOQVw)
 <br />[CodeLyon's discord server](https://discord.gg/Mdm5yMs5tc)
-<br />[The original video](https://www.youtube.com/watch?v=QBUJ3cdofqc&t=3s)
+<br />[The original video](https://www.youtube.com/watch?v=WGTZgZVVclw&t=3s)
 
 ## Things to replace!
 
@@ -24,4 +24,4 @@ npm i discord.js
 
 ## Things to look out for
 
-Make sure all your files are caled the same names in the [video](https://www.youtube.com/watch?v=QBUJ3cdofqc&t=3s)!
+Make sure all your files are caled the same names in the [video](https://www.youtube.com/watch?v=WGTZgZVVclw&t=3s)!
